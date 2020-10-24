@@ -1,0 +1,61 @@
+.circle{
+    position: relative;
+    width: 275px;
+    height: 279px;
+    border: 1px solid black;
+    border-radius: 51%;
+    margin: 160px auto;
+    box-shadow: 0px 13px 30px black;
+    background: linear-gradient(74deg, black, #473d3ddb);
+
+}
+
+.stopwatch{
+    margin:0 auto;
+    display: flex;
+    position: relative;
+    top: 35%;
+
+}
+
+.stopwatch div{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    font-size: 47px;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+.buttons{
+    position: relative;
+    top: -13%;
+    text-align: center;
+}
+
+.buttons button{
+    border:0px;
+    padding: 9px;
+    font-size: 20px;
+    border-radius: 12px;
+    margin: 2px;
+}
+
+.buttons button:hover{
+  
+}
+
+.start{
+        background: linear-gradient(15deg, green, #5edd5e);
+}
+
+.stop{
+        background: linear-gradient(15deg, #820606, #cd3535);
+}
+
+.reset{
+    background: linear-gradient(15deg, #807600, #dbdd5e);
+}
